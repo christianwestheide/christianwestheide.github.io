@@ -1,0 +1,65 @@
+# - doi:
+#   ssrn:
+#   title:
+#   authors:
+#   journal:
+#   abstract:
+
+- doi:
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3276548"
+  title: "Trader Competition in Fragmented Markets: Liquidity Supply versus Picking-off Risk"
+  authors: "with Alejandro Bernales, Nicolas Garrido, Satchit Sagade, and Marcela Valenzuela"
+  journal: "Journal of Financial and Quantitative Analysis, forthcoming 2022"
+  abstract: "By employing a dynamic model with two limit order books, we show that fragmentation is associated with reduced competition among liquidity suppliers and lower picking-off risk of limit orders. Due to these countervailing channels, the impact of fragmentation on liquidity and welfare differs with asset volatility: when volatility is high (low), liquidity and aggregate welfare in a fragmented market are higher (lower) than in a single market. However, fragmentation always shifts welfare away from agents with exogenous trading motives and towards intermediaries. We empirically corroborate our model’s predictions about liquidity. Our model reconciles the mixed results in the empirical literature."
+
+- doi: "https://doi.org/10.1016/j.finmar.2019.100530"
+  title: "Call of Duty: Designated Market Maker Participation in Call Auctions"
+  authors: "with Erik Theissen"
+  journal: "Journal of Financial Markets 49 (2020)"
+  abstract: "Many equity markets combine continuous trading and call auctions. Oftentimes designated market makers (DMMs) supply additional liquidity. Whereas prior research has focused on their role in continuous trading, we analyze their activity in call auctions in depth. Using data from Germany's Xetra system, we find that DMMs are most active when they can provide the greatest benefits to the market, i.e., in relatively illiquid stocks and at times of elevated volatility. They stabilize prices and trade profitably. These results imply that DMMs provide a valuable service to the market, and that they charge an implicit price for that service."
+
+- doi: "https://doi.org/10.1016/j.jcorpfin.2019.07.008"
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3105984"
+  title: "Corporate Insider Trading and Return Skewness"
+  authors: "with Wolfgang Drobetz and Emil Mussbach"
+  journal:  "Journal of Corporate Finance 60 (2020)"
+  abstract: "Corporate insider trades predict idiosyncratic return skewness. CEO purchases are followed by an increase and CEO sales by a decrease in idiosyncratic skewness. The evidence suggests that this effect is driven by personal preferences rather than behavioral biases such as overconfidence. Our findings are consistent with the interpretation that CEOs, who are generally considered to be underdiversified, optimize their holdings by taking a preference for positive skewness into account. We observe particularly robust results for CEO sales, which substantiates the less common notion that insider sales can be informative for investors."
+
+- doi: "https://www.springerprofessional.de/liquidity-in-the-german-stock-market/17087490"
+  title: "Liquidity in the German Stock Market"
+  authors: "with Thomas Johann, Stefan Scharnowski, Erik Theissen, and Lukas Zimmermann"
+  journal: "Schmalenback Business Review, October 71(4) (2019), 443-473"
+  abstract: "This paper presents the most extensive analysis of liquidity in the German equity market so far. We examine the evolution of liquidity over time, the determinants of liquidity, and commonality across liquidity measures and countries. We make use of a new publicly available dataset, the Market Microstructure Database Xetra (MMDB-Xetra). We find that liquidity has generally increased over time, and that in times of crisis liquidity is lower and the volatility of liquidity is significantly higher. Commonality in liquidity is highest during the financial crisis. We also find significant commonality between liquidity in the US and the German equity markets."
+
+
+- doi: "https://doi.org/10.1016/j.jcorpfin.2016.04.008"
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2519425"
+  title: "Relative Idiosyncratic Volatility and the Timing of Corporate Insider Trading"
+  authors: "with Jasmin Gider"
+  journal: "Journal of Corporate Finance 39 (2016), 312-334"
+  abstract: "This paper investigates whether corporate insiders trade when asymmetric information is high, using data on U.S. corporate insider transactions between 1986 and 2012. The key innovation of this paper is our proxy for asymmetric information relivol which measures deviations of idiosyncratic volatility from a firm's normal level. Our findings indicate that relivol positively predicts insider purchases, which indicates that insiders buy shares when their informational advantage is high. However, insiders appear to sell less if relivol is high, which is consistent with existing evidence on sales being driven by alternative, non-information related trading motives such as liquidity or diversification needs. Further, we find that profits are significantly higher when insiders buy during periods of high relivol, but not when they sell shares."
+
+- doi: "https://doi.org/10.1111/joes.12176"
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2362216"
+  title: "Competition Between Equity Markets: Evidence from the Consolidation Versus Fragmentation Debate"
+  authors: "with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber"
+  journal: "Journal of Economic Surveys 31(3) (2017), 792-814"
+  abstract: "Technological advances and regulatory initiatives has led to the emergence of a competitive, but fragmented, equity trading landscape in several markets around the world. While these changes have brought about benefits like reduced transaction costs, innovations in trading technology, and access to a diverse array of execution venues, regulators and market participants have also raised concerns about the potential adverse effects associated with increased execution complexity and the market quality implications of innovations like dark pools. In this article we review the theoretical and empirical literature examining the economic arguments and motivations underlying market fragmentation, the resulting implications for market quality, and the role for public policy. Exchanges are often viewed as natural monopolies due to the presence of network externalities and economies of scale. However, heterogeneity in traders' preferences means that no single venue can serve the interests of all investors. Fragmentation of the marketplace can be seen as a direct outcome of this heterogeneity."
+
+- doi: "https://doi.org/10.3905/jot.2015.10.2.023"
+  title: "The State of Play in European Over-the-Counter Equities Trading"
+  authors: "with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber"
+  journal: "Journal of Trading; Vol. 10 (2015), No. 2, 23-32"
+  abstract: "In early 2014, the European Council, the European Parliament, and the European Commission reached an agreement on MiFID II (Markets in Financial Instruments Directive) and on MiFIR (Markets in Financial Instruments Regulation). Because the new regulatory framework will significantly influence and likely reduce European over-the-counter (OTC) equities trading, our article investigates the current state of OTC trading in Europe. Therefore, we investigate OTC transaction sizes for Euro STOXX 50 constituents between January 2008 and June 2013, discuss whether and how they might have caused market impact, and give insights on how this affects the European trading landscape."
+
+- doi: " https://doi.org/10.1111/jbfa.12039"
+  title: "Market Response to Investor Sentiment"
+  authors: "with Jördis Hengelbrock and Erik Theissen"
+  journal: "Journal of Business Finance and Accounting 40 (2013), 901-917"
+  abstract: "This paper reconsiders the effect of investor sentiment on stock prices. Our main contribution is that, in addition to the intermediate term return predictability, we also analyze the immediate price reaction to the publication of survey-based investor sentiment indicators. We find that the sign of the immediate market response is the same as that of the predictability at intermediate time horizons. This is consistent with underreaction to cash flow news or with investor sentiment being related to mispricing. It is inconsistent with the alternative explanations of a rational response to cash flow news or sentiment indicators providing information about future expected returns."
+
+- doi: "https://doi.org/10.1007/BF03396861"
+  title: "The Conditional Relation between Fama-French Betas and Return"
+  authors: "with Stefan Koch"
+  journal:  "Schmalenback Business Review 65 (2013), 334-358"
+  abstract: "According to asset pricing theory, in expectation there is a positive reward for taking risks. However, using realized returns, this relation is frequently reversed. In order to take this into account, we apply a conditional approach to the predominant model in asset pricing, the Fama-French three-factor model. We find that all three risk factors cross-sectionally drive asset returns. While other papers stop their analysis at this point, we extend the test developed by Freeman and Guermat (2006) to multifactor models and test if risk premia are priced within the conditional approach. Our test leads to qualitatively identical results as the widely used Fama-MacBeth test and hence confirms its validity."

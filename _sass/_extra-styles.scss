@@ -1,0 +1,55 @@
+/*
+styles used by publications and working papers list
+*/
+
+.abstract-open {
+	border:1px dashed;
+	margin: 0.5em;
+	padding:0.5em;
+	width: 80%;
+	background-color: $grey-color-light; //#f0f0f0;
+	font-size: 0.9em;
+}
+details {
+	float:left;
+	//margin-bottom: 1em;
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+	color: $brand-color;//
+	&:hover {
+		color: $text-color;//
+	}
+}
+.color-button2 {
+    text-align: left; //
+    border-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+		padding-right: 2em;
+    cursor: pointer;
+		color: $brand-color;//
+		&:hover {
+			color: $text-color;//
+		}
+}
+
+/*
+styles used by news listimg om page home
+*/
+
+.news ul {
+  list-style: none;
+  margin-left:0px;
+}
+.news ul li {
+  margin-bottom:0.2em;
+}
+.newsdate {
+  width:7em;
+  float:left;
+}

@@ -1,0 +1,17 @@
+- title: "Home"
+  href: "/"
+
+- title: "Publications"
+  href: "/publications/"
+
+- title: "Working Papers"
+  href: "/working_papers/"
+
+- title: "Teaching"
+  href: "/teaching/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Contact"
+  href: "/contact/"

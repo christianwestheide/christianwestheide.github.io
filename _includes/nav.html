@@ -1,0 +1,12 @@
+<ul class="menu">
+  {% for item in site.data.menu %}
+    {% assign x = nil %}
+      {% if page.url == item.href %}
+        {% assign x = 'is_active' %}
+      {% endif %}<li>
+      <a href="{{ site.baseurl }}{{ item.href }}" class="page-link {{x}}">
+        {{ item.title }}
+      </a>
+      </li>
+    {% endfor %}
+</ul>
