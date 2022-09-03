@@ -30,4 +30,3 @@ title: Publications
 	</li>
 {% endfor %}
 </ul>
-{{page.url}}
