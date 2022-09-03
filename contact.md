@@ -54,5 +54,5 @@ td {
 </table>
 <div >
 <a href="https://www.google.com/maps/dir//Oskar-Morgenstern-Platz+1,+1090+Wien,+Österreich/@48.2194308,16.3634571,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x476d07baf109a1a7:0x11dafb3fdc93d2cf!2m2!1d16.3678345!2d48.2194309!3e0" target ="_blank">
-<img src="/home/images/lageplan2.jpg" style="border:1px solid black;"/></a>
+<img src="/images/lageplan2.jpg" style="border:1px solid black;"/></a>
 </div>
