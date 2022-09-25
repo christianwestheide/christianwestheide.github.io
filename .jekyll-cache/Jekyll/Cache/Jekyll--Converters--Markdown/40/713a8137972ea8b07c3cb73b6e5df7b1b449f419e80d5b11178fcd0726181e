@@ -1,0 +1,72 @@
+I"�'<p>Write your post content here in normal <code class="language-plaintext highlighter-rouge">markdown</code>. An example post is shown below for reference.</p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Recurrent Neural Networks and their variations are very likely to overfit the training data. This is due to the large network formed by unfolding each cell of the RNN, and <em>relatively</em> small number of parameters (since they are shared over each time step) and training data. Thus, the perplexities obtained on the test data are often quite larger than expected. Several attempts have been made to minimize this problem using varied <strong>regularization</strong> techniques. This paper tackles this issue by proposing a model that combines several of such existing methods.</p>
+
+<p><em>Merity et al</em>’s model is a modification of the standard <strong>LSTM</strong> in which <em>DropConnect</em> is applied to the hidden weights in the <em>recurrent</em> connections of the LSTM for regularization. The dropout mask for each weight is preserved and the same mask is used across all time steps, thereby adding negligible computation overhead. Apart from this, several other techniques have been incorporated :</p>
+<ul>
+  <li><strong>Variational dropout</strong> : The same dropout mask is used for a particular recurrent connection in both the forward and backward pass for all time steps. Each input of a mini-batch has a separate dropout mask, which ensures that the regularizing effect due to it isn’t identical across different inputs.</li>
+  <li><strong>Embedding dropout</strong> : Dropout with dropout probability \(p_e\) is applied to word embedding vectors, which results in new word vectors which are identically zero for the dropped words. The remaining word vectors are scaled by \(\frac{1}{1-p_e}\) as compensation.</li>
+  <li><strong>AR and TAR</strong> : AR (Activation Regularization) and TAR (Temporal Activation Regularization) are modifications of \(L_2\) regularization, wherein the standard technique is applied to dropped <em>output activations</em> and dropped <em>change in output activations</em> respectively. Mathematically, the additional terms in the cost function \(J\) are (here \(\alpha\) and \(\beta\) are scaling constants and \(\textbf{D}\) is the dropout mask) :</li>
+</ul>
+
+\[J_{AR}=\alpha L_2\left(\textbf{D}_l^t\odot h_l^t\right)\\
+J_{TAR}=\beta L_2\left(\textbf{D}_l^t\odot\left(h_l^t - h_l^{t-1}\right)\right)\]
+
+<ul>
+  <li><strong>Weight tying</strong> : In this method, the parameters for word embeddings and the final output layer are shared.</li>
+  <li><strong>Variable backpropagation steps</strong> : A random number of BPTT steps are taken instead of a fixed number, whose mean is very close to the original fixed value (\(s\)). The BPTT step-size (\(x\)) is drawn from the following distribution (here \(\mathcal{N}\) is the Gaussian distribution, \(p\) is a number close to 0.95 and \(\sigma^2\) is the desired variance) :</li>
+</ul>
+
+\[x \sim p\cdot \mathcal{N}\left(s,\sigma^2\right) + (1-p)\cdot \mathcal{N}\left(\frac{s}{2},\sigma^2\right)\]
+
+<ul>
+  <li><strong>Independent sizes of word embeddings and hidden layer</strong> : The sizes of the hidden layer and word embeddings are kept independent of each other.</li>
+</ul>
+
+<p>The paper also introduces a new optimization algorithm, namely <strong>Non-monotonically Triggered Averaged Stochastic Gradient Descent</strong> or NT-ASGD, which can be programmatically described as follows :</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">NT_ASGD</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="n">w0</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">L</span><span class="p">,</span> <span class="n">lr</span><span class="p">):</span>
+    <span class="s">"""
+    Input parameters :
+    f  - objective function
+    t  - stopping criterion
+    w0 - initial parameters
+    n  - non-monotonicity interval
+    L  - number of epochs after which finetuning is done
+    lr - learning rate
+
+    Returns :
+    parameter(s) that minimize `f`
+    """</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">T</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">t</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">params</span> <span class="o">=</span> <span class="p">[];</span> <span class="n">logs</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">w</span> <span class="o">=</span> <span class="n">w0</span>
+    <span class="k">while</span> <span class="n">t</span><span class="p">(</span><span class="n">w</span><span class="p">):</span>
+        <span class="c1"># `func_grad` computes gradient of `f` at `w`
+</span>        <span class="n">w</span> <span class="o">=</span> <span class="n">w</span> <span class="o">-</span> <span class="n">lr</span> <span class="o">*</span> <span class="n">func_grad</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">w</span><span class="p">)</span>
+        <span class="n">params</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+        <span class="n">k</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="n">k</span><span class="o">%</span><span class="n">L</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="c1"># Compute model's perplexity for current parameters
+</span>            <span class="n">v</span> <span class="o">=</span> <span class="n">perplexity</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">t</span> <span class="o">&gt;</span> <span class="n">n</span> <span class="ow">and</span> <span class="n">v</span> <span class="o">&gt;</span> <span class="nb">min</span><span class="p">(</span><span class="n">logs</span><span class="p">[</span><span class="n">t</span><span class="o">-</span><span class="n">n</span><span class="p">:</span><span class="n">t</span><span class="o">+</span><span class="mi">1</span><span class="p">]):</span>
+                <span class="n">T</span> <span class="o">=</span> <span class="n">k</span>
+            <span class="n">logs</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+            <span class="n">t</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="c1"># Return the average of best `k-T+1` parameters
+</span>    <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="o">-</span><span class="p">(</span><span class="n">k</span><span class="o">-</span><span class="n">T</span><span class="o">+</span><span class="mi">1</span><span class="p">):])</span><span class="o">/</span><span class="p">(</span><span class="n">k</span><span class="o">-</span><span class="n">T</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>     </code></pre></figure>
+
+<p>They also combined their <strong>AWD-LSTM</strong> (ASGD Weight Dropped LSTM) with a neural cache model to obtain further reduction in perplexities. A <em>neural cache model</em> stores previous states in memory, and predicts the output obtained by a <em>convex combination</em> of the output using stored states and the AWD-LSTM.</p>
+
+<h3 id="network-description">Network description</h3>
+<p><em>Merity et al</em>’s model used a 3-layer weight dropped LSTM with dropout probability <code class="language-plaintext highlighter-rouge">0.5</code> for <strong>PTB corpus</strong> and <code class="language-plaintext highlighter-rouge">0.65</code> for <strong>WikiText-2</strong>, combined with several of the above regularization techniques. The different hyperparameters (as referred to in the discussion above) are as follows : hidden layer size (\(H\)) = <code class="language-plaintext highlighter-rouge">1150</code>, embedding size (\(D\)) = <code class="language-plaintext highlighter-rouge">400</code>, number of epochs = <code class="language-plaintext highlighter-rouge">750</code>, \(L\) = <code class="language-plaintext highlighter-rouge">1</code>, \(n\) = <code class="language-plaintext highlighter-rouge">5</code>, learning rate = <code class="language-plaintext highlighter-rouge">30</code>, Gradients clipped at <code class="language-plaintext highlighter-rouge">0.25</code>, \(p\) = <code class="language-plaintext highlighter-rouge">0.95</code>, \(s\) = <code class="language-plaintext highlighter-rouge">70</code>, \(\sigma^2\) = <code class="language-plaintext highlighter-rouge">5</code>, \(\alpha\) = <code class="language-plaintext highlighter-rouge">2</code>, \(\beta\) = <code class="language-plaintext highlighter-rouge">1</code>, dropout probabilities for input, hidden outputs, final output and embeddings as <code class="language-plaintext highlighter-rouge">0.4</code>, <code class="language-plaintext highlighter-rouge">0.3</code>, <code class="language-plaintext highlighter-rouge">0.4</code> and <code class="language-plaintext highlighter-rouge">0.1</code> respectively.</p>
+
+<p>Word embedding weights were initialized from \(\mathcal{U}\left[-0.1,0.1\right]\) and all other hidden weights from \(\mathcal{U}\left[-\frac{1}{\sqrt{1150}},\frac{1}{\sqrt{1150}}\right]\). Mini-batch size of <code class="language-plaintext highlighter-rouge">40</code> was used for PTB and <code class="language-plaintext highlighter-rouge">80</code> for WT-2.</p>
+
+<h3 id="result-highlights">Result highlights</h3>
+<ul>
+  <li>3-layer AWD-LSTM with weight tying attained 57.3 PPL on PTB</li>
+  <li>3-layer AWD-LSTM with weight tying and a continuous cache pointer attained 52.8 PPL on PTB</li>
+</ul>
+:ET

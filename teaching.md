@@ -3,11 +3,46 @@ layout: page
 title: Teaching
 permalink: /teaching/
 ---
-
-<!-- <ul>
-	<li><a href="courses">Courses undertaken</a> - A list of important courses that I have completed so far.</li>
-	<li><a href="extracurricular">Extracurriculars</a> - A glimpse into my non-academic life!</li>
-	<li><a href="travel">Travel</a> - Some moments from my trips to beautiful places around the world.</li>
+<h2>Current teaching</h2>
+<ul class="listing">
+{% for item in site.data.teaching %}
+{% if item.current>0 %}
+	<li>
+		<b>{{item.title}}</b><br/>
+    {% if item.description %}
+		{{item.description}}
+    <br/>
+		{% endif %}
+		{{item.schedule}}<br/>
+    {% if item.link %}
+		<div class="link-buttons">
+    <a href ="{{item.link}}" target ="_blank"><div class = "color-button2">Course Description</div></a>
+		</div>
+    {% endif %}
+		<br/>
+	</li>
+{% endif %}  
+{% endfor %}
 </ul>
+<h2>Past teaching</h2>
 
-You can add other topics by editing `miscellany.md` and `_data/menu.yml`. -->
+<ul class="listing">
+{% for item in site.data.teaching %}
+{% if item.current==0 %}
+	<li>
+		<b>{{item.title}}</b><br/>
+    {% if item.description %}
+		{{item.description}}
+    <br/>
+		{% endif %}
+		{{item.schedule}}<br/>
+    {% if item.link %}
+		<div class="link-buttons">
+    <a href ="{{item.link}}" target ="_blank"><div class = "color-button2">Course Description</div></a>
+		</div>
+    {% endif %}
+		<br/>
+	</li>
+  {% endif %}
+{% endfor %}
+</ul>

@@ -1,0 +1,48 @@
+
+- title: "Python for Finance I"
+  schedule: "University of Vienna, every summer and winter term since summer 2020"
+  link: "https://ufind.univie.ac.at/en/course.html?lv=040164&semester=2022W"
+  description:
+  current: 1
+
+- title: "Python for Finance II"
+  schedule: "University of Vienna, every summer term since 2020"
+  link: "https://ufind.univie.ac.at/en/course.html?lv=040514&semester=2022S"
+  description:
+  current: 1
+
+- title: "Fixed Income Securities"
+  schedule: "University of Vienna, every winter term since 2018"
+  link: "https://ufind.univie.ac.at/en/course.html?lv=040016&semester=2022W"
+  description:
+  current: 1
+
+- title: "Supervision of Master Theses"
+  schedule: "University of Vienna, continuously"
+  link:
+  description:
+  current: 1
+
+- title: "Active Investing"
+  schedule: "University of Vienna, winter term 2019"
+  link: "https://ufind.univie.ac.at/en/course.html?lv=040050&semester=2019W"
+  description:
+  current: 0
+
+- title: "Limits of Arbitrage"
+  schedule: "University of Vienna, summer term 2019"
+  link: "https://ufind.univie.ac.at/en/course.html?lv=040031&semester=2019S"
+  description:
+  current: 0
+
+- title: "Empirical Finance"
+  schedule: "University of Vienna, summer term 2019"
+  link: "https://ufind.univie.ac.at/en/course.html?lv=040514&semester=2019S"
+  description:
+  current: 0
+
+- title: "Causal Inference in Finance"
+  schedule: "University of Vienna, winter term 2018"
+  link: "https://ufind.univie.ac.at/en/course.html?lv=040050&semester=2018W"
+  description:
+  current: 0

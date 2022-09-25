@@ -1,0 +1,164 @@
+I"N(<ul class="listing">
+
+	<li>
+		<b>Non-Standard Errors</b><br />
+		with Albert Menkveld et al., 2022<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">In statistics, samples are drawn from a population in a data-generating process (DGP). Standard errors measure the uncertainty in sample estimates of population parameters. In science, evidence is generated to test hypotheses in an evidence-generating process (EGP). We claim that EGP variation across researchers adds uncertainty: non-standard errors. To study them, we let 164 teams test six hypotheses on the same sample. We find that non-standard errors are sizeable, on par with standard errors. Their size (i) co-varies only weakly with team merits, reproducibility, or peer rating, (ii) declines significantly after peer-feedback, and (iii) is underestimated by participants.</p>
+				</details>
+			
+			
+					<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3961574" target="_blank"><div class="color-button2">SSRN</div></a>
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>Quasi-Dark Trading: The Effects of Banning Dark Pools in a World of Many Alternatives</b><br />
+		with Thomas Johann, Talis Putnins, and Satchit Sagade, 2019<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">We show that “quasi-dark” trading venues, i.e., markets with somewhat non-transparent trading mechanisms, are important parts of modern equity market structure alongside lit markets and dark pools. Using the European MiFID II regulation as a quasi-natural experiment, we find that dark pool bans lead to (i) volume spill-overs into quasi-dark trading mechanisms including periodic auctions and order internalization systems; (ii) little volume returning to transparent public markets; and consequently, (iii) a negligible impact on market liquidity and short-term price efficiency. These results show that quasi-dark markets serve as close substitutes for dark pools and consequently mitigate the effectiveness of dark pool regulation. Our findings highlight the need for a broader approach to transparency regulation in modern markets that takes into consideration the many alternative forms of quasi-dark trading.</p>
+				</details>
+			
+			
+					<a href="https://doi.org/10.2139/ssrn.3365994" target="_blank"><div class="color-button2">SSRN</div></a>
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>A Tale of Two Cities - Inter-Market Latency, Market Integration, and Market Quality</b><br />
+		with Satchit Sagade, Stefan Scharnowski, and Erik Theissen, 2019<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">We study the introduction of a microwave link between Frankfurt and London and identify its effects on German stocks that trade in both locations using a difference-in-differences setting with French firms that trade only in London as the control group.  We find that the link improves the integration between the two markets as evidenced by a reduction in arbitrage opportunities and a faster reaction in London after a trade in Frankfurt. Trading volume shifts towards Frankfurt as investors - concerned about an increase in speed dispersion vis-à-vis high-frequency traders - reduce order splitting across the two cities. The effects on market quality outcomes across stocks differ as high-frequency traders strategically utilize the speed advantage resulting from the microwave link to supply or consume liquidity. In London, mid cap stocks benefit from increased liquidity provision whereas order flow for large stocks becomes more toxic. London's increased competitiveness for mid cap stocks also translates into an increase in its information share, while Frankfurt increases its information share for large cap stocks. These results suggest that market integration differently affects investors based on their speed advantage, trading venues based on their level of competitiveness, and stocks based on their size.</p>
+				</details>
+			
+			
+					<a href="https://doi.org/10.2139/ssrn.3475442" target="_blank"><div class="color-button2">SSRN</div></a>
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>High-Frequency Trading and Price Informativeness</b><br />
+		with Jasmin Gider and Simon Schmickler, 2021<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">We study how the informativeness of stock prices changes with the start of high-frequency trading (HFT). Our estimate is based on the staggered start of HFT participation in a panel of international exchanges. With HFT presence, market prices are a less reliable predictor of future cash flows and investment, even more so for longer horizons. Further, firm-level idiosyncratic volatility decreases, and the holdings and trades by institutional investors deviate less from the market-capitalization weighted portfolio as a benchmark. Our results document that the informativeness of prices decreases subsequent to the start of HFT. These findings are consistent with theoretical models of HFTs' ability to anticipate informed order flow, resulting in decreased incentives to acquire fundamental information.</p>
+				</details>
+			
+			
+					<a href="https://doi.org/10.2139/ssrn.3349653" target="_blank"><div class="color-button2">SSRN</div></a>
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>One for the Money, Two for the Show? The Number of Designated Market Makers and Liquidity</b><br />
+		with Erik Theissen, 2022<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">Prior research has established that the presence of designated market makers (DMMs) in an electronic open limit order book increases liquidity. We analyze whether the presence of additional DMMs results in a further improvement in liquidity. Using data from Deutsche Börse's Xetra system we find that increases in the number of DMMs significantly improve liquidity, and vice versa for decreases in the number of DMMs. Our results are confirmed when we use an instrumental variables approach to overcome potential endogeneity issues.</p>
+				</details>
+			
+			
+			  &nbsp;
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>Corporate Bond Issuance Fragmentation, Liquidity, and Issuance Costs</b><br />
+		with Mohammad Izadi, 2022<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">Many companies issue multiple bonds that are outstanding simultaneously. Market participants surmise that this fragmentation of issuance is one reason for the relative lack of liquidity in the corporate bond market. Using data from the US, we confirm that bond issuance fragmentation predicts lower bond liquidity, as measured by estimates of the bid-ask spread and the intra-quartile range of trade prices. These results hold for both retail and institutional-sized trades. The effect was most severe during the Global Financial Crisis, and it has generally reduced over time. Our results are most consistent with predictions from models of search and bargaining costs, though they do not rule out a role of dealer inventory costs. Bond issuers do not benefit from more concentrated issuance because they are associated with higher yields despite their higher liquidity.</p>
+				</details>
+			
+			
+			  &nbsp;
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>Spoilt for Choice: Order Routing Decisions in Fragmented Equity Markets</b><br />
+		with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber, 2022<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">We use an extensive panel dataset from the European equity markets to analyze the market shares of five categories of lit and dark trading mechanisms. We find that market design features, such as tick size, immediacy and anonymity; market conditions, such as liquidity and volatility; and the informational environment have distinct implications for order routing decisions and, in consequence, for the market shares of the different trading mechanisms. Furthermore, these implications markedly differ for small and large trades, most likely because traders jointly decide on their trade size and venue choice.</p>
+				</details>
+			
+			
+					<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2839285" target="_blank"><div class="color-button2">SSRN</div></a>
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>The Anatomy of Designated Market Maker Trading in Limit Order Markets</b><br />
+		with Erik Theissen, 2018<br />
+		<div class="link-buttons">
+			
+				<details>
+	 			<summary class="color-button2">Show Abstract</summary> <!--  -->
+				<p class="abstract-open">Many exchanges allow or require firms to hire designated market makers (DMM) to improve liquidity. Available evidence suggests that DMMs indeed improve liquidity, and that share prices react favorably to their presence. Little is known, however, about what DMMs actually do. We analyze their trading activity in detail. DMM participation decreases in firm size and trading volume, and decreases over the trading day. They not only provide liquidity but also take liquidity. Other traders take liquidity supplied by DMMs in times of high spreads and informational asymmetries. DMMs do not earn trading profits and thus need to be compensated otherwise for the services they provide.</p>
+				</details>
+			
+			
+			  &nbsp;
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>The Effects of Post-Trade Transparency in Equity Markets: Evidence from MiFID Large Trade Disclosure Rules</b><br />
+		with Stefan Scharnowski, 2016<br />
+		<div class="link-buttons">
+			
+			
+			  &nbsp;
+			
+		</div>
+		<br />
+	</li>
+
+	<li>
+		<b>Institutional Ownership, Corporate Governance, and Price Reactions to Corporate Insider Trading</b><br />
+		with Peter Bednarek, 2013<br />
+		<div class="link-buttons">
+			
+			
+			  &nbsp;
+			
+		</div>
+		<br />
+	</li>
+
+</ul>
+:ET
