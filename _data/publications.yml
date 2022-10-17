@@ -20,6 +20,7 @@
   abstract: "We analyze the determinants of trading volumes of different trading mechanisms in equity markets using an extensive panel data set from European markets comprising public limit order books, call auctions, dark pools, internalization platforms, and the over-the-counter market. Market shares, resulting from investors' order routing decisions, are driven by the degree of immediacy and anonymity offered by the venues, their ability to offer off-tick executions, as well as the informational environment and conditions in the market. Findings for small and large trades are distinctly different, likely because traders jointly choose trade size and venue type."
 
 - doi: "https://doi.org/10.1016/j.finmar.2019.100530"
+  ssrn: "https://dx.doi.org/10.2139/ssrn.3908001"
   title: "Call of Duty: Designated Market Maker Participation in Call Auctions"
   authors: "with Erik Theissen"
   journal: "Journal of Financial Markets 49 (2020)"
@@ -33,6 +34,7 @@
   abstract: "Corporate insider trades predict idiosyncratic return skewness. CEO purchases are followed by an increase and CEO sales by a decrease in idiosyncratic skewness. The evidence suggests that this effect is driven by personal preferences rather than behavioral biases such as overconfidence. Our findings are consistent with the interpretation that CEOs, who are generally considered to be underdiversified, optimize their holdings by taking a preference for positive skewness into account. We observe particularly robust results for CEO sales, which substantiates the less common notion that insider sales can be informative for investors."
 
 - doi: "https://www.springerprofessional.de/liquidity-in-the-german-stock-market/17087490"
+  ssrn: "http://hdl.handle.net/10419/200189"
   title: "Liquidity in the German Stock Market"
   authors: "with Thomas Johann, Stefan Scharnowski, Erik Theissen, and Lukas Zimmermann"
   journal: "Schmalenback Business Review, October 71(4) (2019), 443-473"
