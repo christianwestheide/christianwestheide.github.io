@@ -1,3 +1,9 @@
+- ssrn:
+  title: "Broker colocation and the execution costs of customer and proprietary orders"
+  authors: "with Satchit Sagade and Stefan Scharnowski"
+  year: "2022"
+  abstract: "Colocation services oered by stock exchanges enable market participants to achieve execution costs for large orders that are substantially lower and less sensitive to transacting against high-frequency traders. However, these benets manifest only for orders executed on the colocated brokers' own behalf, whereas customers' order execution costs are substantially higher. Analyses of individual order executions indicate that customer orders originating from colocated brokers are less actively monitored and achieve inferior execution quality. This suggests that brokers do not make eective use of their technology, possibly due to agency frictions or poor algorithm selection and parameter choice by customers."
+
 - ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3961574"
   title: "Non-Standard Errors"
   authors: "with Albert Menkveld et al."
@@ -15,6 +21,7 @@
   authors: "with Satchit Sagade, Stefan Scharnowski, and Erik Theissen"
   year: "2019"
   abstract: "We study the introduction of a microwave link between Frankfurt and London and identify its effects on German stocks that trade in both locations using a difference-in-differences setting with French firms that trade only in London as the control group.  We find that the link improves the integration between the two markets as evidenced by a reduction in arbitrage opportunities and a faster reaction in London after a trade in Frankfurt. Trading volume shifts towards Frankfurt as investors - concerned about an increase in speed dispersion vis-à-vis high-frequency traders - reduce order splitting across the two cities. The effects on market quality outcomes across stocks differ as high-frequency traders strategically utilize the speed advantage resulting from the microwave link to supply or consume liquidity. In London, mid cap stocks benefit from increased liquidity provision whereas order flow for large stocks becomes more toxic. London's increased competitiveness for mid cap stocks also translates into an increase in its information share, while Frankfurt increases its information share for large cap stocks. These results suggest that market integration differently affects investors based on their speed advantage, trading venues based on their level of competitiveness, and stocks based on their size."
+
 - ssrn: "https://doi.org/10.2139/ssrn.3349653"
   title: "High-Frequency Trading and Price Informativeness"
   authors: "with Jasmin Gider and Simon Schmickler"
