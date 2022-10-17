@@ -9,8 +9,14 @@
   ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3276548"
   title: "Trader Competition in Fragmented Markets: Liquidity Supply versus Picking-off Risk"
   authors: "with Alejandro Bernales, Nicolas Garrido, Satchit Sagade, and Marcela Valenzuela"
-  journal: "Journal of Financial and Quantitative Analysis, forthcoming 2022"
+  journal: "Journal of Financial and Quantitative Analysis, forthcoming"
   abstract: "By employing a dynamic model with two limit order books, we show that fragmentation is associated with reduced competition among liquidity suppliers and lower picking-off risk of limit orders. Due to these countervailing channels, the impact of fragmentation on liquidity and welfare differs with asset volatility: when volatility is high (low), liquidity and aggregate welfare in a fragmented market are higher (lower) than in a single market. However, fragmentation always shifts welfare away from agents with exogenous trading motives and towards intermediaries. We empirically corroborate our model’s predictions about liquidity. Our model reconciles the mixed results in the empirical literature."
+
+ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2839285"
+  title: "Spoilt for Choice: Determinants of Market Shares in Fragmented Equity Markets"
+  authors: "with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber"
+  journal: "Journal of Financial Markets, forthcoming"
+  abstract: "We analyze the determinants of trading volumes of different trading mechanisms in equity markets using an extensive panel data set from European markets comprising public limit order books, call auctions, dark pools, internalization platforms, and the over-the-counter market. Market shares, resulting from investors' order routing decisions, are driven by the degree of immediacy and anonymity offered by the venues, their ability to offer off-tick executions, as well as the informational environment and conditions in the market. Findings for small and large trades are distinctly different, likely because traders jointly choose trade size and venue type."
 
 - doi: "https://doi.org/10.1016/j.finmar.2019.100530"
   title: "Call of Duty: Designated Market Maker Participation in Call Auctions"

@@ -21,7 +21,7 @@
   year: "2021"
   abstract: "We study how the informativeness of stock prices changes with the start of high-frequency trading (HFT). Our estimate is based on the staggered start of HFT participation in a panel of international exchanges. With HFT presence, market prices are a less reliable predictor of future cash flows and investment, even more so for longer horizons. Further, firm-level idiosyncratic volatility decreases, and the holdings and trades by institutional investors deviate less from the market-capitalization weighted portfolio as a benchmark. Our results document that the informativeness of prices decreases subsequent to the start of HFT. These findings are consistent with theoretical models of HFTs' ability to anticipate informed order flow, resulting in decreased incentives to acquire fundamental information."
 
-- ssrn:
+- ssrn: "https://dx.doi.org/10.2139/ssrn.4202201"
   title: One for the Money, Two for the Show? The Number of Designated Market Makers and Liquidity
   authors: "with Erik Theissen"
   year: "2022"
@@ -32,12 +32,6 @@
   authors: "with Mohammad Izadi"
   year: "2022"
   abstract: "Many companies issue multiple bonds that are outstanding simultaneously. Market participants surmise that this fragmentation of issuance is one reason for the relative lack of liquidity in the corporate bond market. Using data from the US, we confirm that bond issuance fragmentation predicts lower bond liquidity, as measured by estimates of the bid-ask spread and the intra-quartile range of trade prices. These results hold for both retail and institutional-sized trades. The effect was most severe during the Global Financial Crisis, and it has generally reduced over time. Our results are most consistent with predictions from models of search and bargaining costs, though they do not rule out a role of dealer inventory costs. Bond issuers do not benefit from more concentrated issuance because they are associated with higher yields despite their higher liquidity."
-
-- ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2839285"
-  title: "Spoilt for Choice: Order Routing Decisions in Fragmented Equity Markets"
-  authors: "with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber"
-  year: "2022"
-  abstract: "We use an extensive panel dataset from the European equity markets to analyze the market shares of five categories of lit and dark trading mechanisms. We find that market design features, such as tick size, immediacy and anonymity; market conditions, such as liquidity and volatility; and the informational environment have distinct implications for order routing decisions and, in consequence, for the market shares of the different trading mechanisms. Furthermore, these implications markedly differ for small and large trades, most likely because traders jointly decide on their trade size and venue choice."
 
 - ssrn:
   title: "The Anatomy of Designated Market Maker Trading in Limit Order Markets"
