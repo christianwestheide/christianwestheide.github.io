@@ -12,7 +12,8 @@
   journal: "Journal of Financial and Quantitative Analysis, forthcoming"
   abstract: "By employing a dynamic model with two limit order books, we show that fragmentation is associated with reduced competition among liquidity suppliers and lower picking-off risk of limit orders. Due to these countervailing channels, the impact of fragmentation on liquidity and welfare differs with asset volatility: when volatility is high (low), liquidity and aggregate welfare in a fragmented market are higher (lower) than in a single market. However, fragmentation always shifts welfare away from agents with exogenous trading motives and towards intermediaries. We empirically corroborate our model’s predictions about liquidity. Our model reconciles the mixed results in the empirical literature."
 
-ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2839285"
+- doi:
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2839285"
   title: "Spoilt for Choice: Determinants of Market Shares in Fragmented Equity Markets"
   authors: "with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber"
   journal: "Journal of Financial Markets, forthcoming"
