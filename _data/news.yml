@@ -1,5 +1,5 @@
-- date: "2023-09-25"
-  text: "The <a href='https://safe-frankfurt.de/news-media/events/event-view/7th-safe-market-microstructure-conference.html' target='_blank'> 7th SAFE Market Microstructure Conference</a> will take place in Frankfurt on Sep 25, 2023."
+#- date: "2023-09-25"
+#  text: "The <a href='https://safe-frankfurt.de/news-media/events/event-view/#7th-safe-market-microstructure-conference.html' target='_blank'> 7th SAFE Market Microstructure #Conference</a> will take place in Frankfurt on Sep 25, 2023."
 
 - date: "2022-10-12"
   text: '"Spoilt for Choice: Determinants of Market Shares in Fragmented Equity Markets" has been accepted for publication in the Journal of Financial Markets.'
