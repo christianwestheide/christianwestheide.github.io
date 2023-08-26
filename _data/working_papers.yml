@@ -4,7 +4,7 @@
   title: "Broker colocation and the execution costs of customer and proprietary orders"
   authors: "with Satchit Sagade and Stefan Scharnowski"
   year: "2022"
-  abstract: "Colocation services oered by stock exchanges enable market participants to achieve execution costs for large orders that are substantially lower and less sensitive to transacting against high-frequency traders. However, these benets manifest only for orders executed on the colocated brokers' own behalf, whereas customers' order execution costs are substantially higher. Analyses of individual order executions indicate that customer orders originating from colocated brokers are less actively monitored and achieve inferior execution quality. This suggests that brokers do not make eective use of their technology, possibly due to agency frictions or poor algorithm selection and parameter choice by customers."
+  abstract: "Colocation services offered by stock exchanges enable market participants to achieve execution costs for large orders that are substantially lower and less sensitive to transacting against high-frequency traders. However, these benefits manifest only for orders executed on the colocated brokers' own behalf, whereas customers' order execution costs are substantially higher. Analyses of individual order executions indicate that customer orders originating from colocated brokers are less actively monitored and achieve inferior execution quality. This suggests that brokers do not make effective use of their technology, possibly due to agency frictions or poor algorithm selection and parameter choice by customers."
 
 - ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3961574"
   title: "Non-Standard Errors"
