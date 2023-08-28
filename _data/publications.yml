@@ -17,7 +17,7 @@
   ssrn: 
   title: "One for the Money, Two for the Show? The Number of Designated Market Makers and Liquidity"
   authors: "with Erik Theissen"
-  journal: "Economics Letters 224 (2023)"
+  journal: "Economics Letters 224 (2023), 110992"
   abstract: "Prior research has established that the presence of designated market makers (DMMs) in an electronic open limit order book increases liquidity. We analyze whether the presence of additional DMMs results in a further improvement in liquidity. Using data from Deutsche Börse's Xetra system we find that increases in the number of DMMs significantly improve liquidity, and vice versa for decreases in the number of DMMs. Our results are confirmed when we use an instrumental variables approach to overcome potential endogeneity issues."
 
 - doi: "https://doi.org/10.1017/S0022109022001521"
@@ -31,21 +31,21 @@
   ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2839285"
   title: "Spoilt for Choice: Determinants of Market Shares in Fragmented Equity Markets"
   authors: "with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber"
-  journal: "Journal of Financial Markets 64 (2023)"
+  journal: "Journal of Financial Markets 64 (2023), 100816"
   abstract: "We analyze the determinants of trading volumes of different trading mechanisms in equity markets using an extensive panel data set from European markets comprising public limit order books, call auctions, dark pools, internalization platforms, and the over-the-counter market. Market shares, resulting from investors' order routing decisions, are driven by the degree of immediacy and anonymity offered by the venues, their ability to offer off-tick executions, as well as the informational environment and conditions in the market. Findings for small and large trades are distinctly different, likely because traders jointly choose trade size and venue type."
 
 - doi: "https://doi.org/10.1016/j.finmar.2019.100530"
   ssrn: "https://dx.doi.org/10.2139/ssrn.3908001"
   title: "Call of Duty: Designated Market Maker Participation in Call Auctions"
   authors: "with Erik Theissen"
-  journal: "Journal of Financial Markets 49 (2020)"
+  journal: "Journal of Financial Markets 49 (2020), 100530"
   abstract: "Many equity markets combine continuous trading and call auctions. Oftentimes designated market makers (DMMs) supply additional liquidity. Whereas prior research has focused on their role in continuous trading, we analyze their activity in call auctions in depth. Using data from Germany's Xetra system, we find that DMMs are most active when they can provide the greatest benefits to the market, i.e., in relatively illiquid stocks and at times of elevated volatility. They stabilize prices and trade profitably. These results imply that DMMs provide a valuable service to the market, and that they charge an implicit price for that service."
 
 - doi: "https://doi.org/10.1016/j.jcorpfin.2019.07.008"
   ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3105984"
   title: "Corporate Insider Trading and Return Skewness"
   authors: "with Wolfgang Drobetz and Emil Mussbach"
-  journal:  "Journal of Corporate Finance 60 (2020)"
+  journal:  "Journal of Corporate Finance 60 (2020), 101485"
   abstract: "Corporate insider trades predict idiosyncratic return skewness. CEO purchases are followed by an increase and CEO sales by a decrease in idiosyncratic skewness. The evidence suggests that this effect is driven by personal preferences rather than behavioral biases such as overconfidence. Our findings are consistent with the interpretation that CEOs, who are generally considered to be underdiversified, optimize their holdings by taking a preference for positive skewness into account. We observe particularly robust results for CEO sales, which substantiates the less common notion that insider sales can be informative for investors."
 
 - doi: "https://www.springerprofessional.de/liquidity-in-the-german-stock-market/17087490"
