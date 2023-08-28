@@ -1,15 +1,15 @@
 
 - ssrn:
+  title: "The Effects of Europe's 2020 Short Selling Bans on Securities Markets"
+  authors: "with Bogdan Stankovski"
+  year: "2023"
+  abstract:
+
+- ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4289346"
   title: "Broker colocation and the execution costs of customer and proprietary orders"
   authors: "with Satchit Sagade and Stefan Scharnowski"
-  year: "2022"
-  abstract: "Colocation services offered by stock exchanges enable market participants to achieve execution costs for large orders that are substantially lower and less sensitive to transacting against high-frequency traders. However, these benefits manifest only for orders executed on the colocated brokers' own behalf, whereas customers' order execution costs are substantially higher. Analyses of individual order executions indicate that customer orders originating from colocated brokers are less actively monitored and achieve inferior execution quality. This suggests that brokers do not make effective use of their technology, possibly due to agency frictions or poor algorithm selection and parameter choice by customers."
-
-- ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3961574"
-  title: "Non-Standard Errors"
-  authors: "with Albert Menkveld et al."
-  year: "2022"
-  abstract: "In statistics, samples are drawn from a population in a data-generating process (DGP). Standard errors measure the uncertainty in sample estimates of population parameters. In science, evidence is generated to test hypotheses in an evidence-generating process (EGP). We claim that EGP variation across researchers adds uncertainty: non-standard errors. To study them, we let 164 teams test six hypotheses on the same sample. We find that non-standard errors are sizeable, on par with standard errors. Their size (i) co-varies only weakly with team merits, reproducibility, or peer rating, (ii) declines significantly after peer-feedback, and (iii) is underestimated by participants."
+  year: "2023"
+  abstract: "Colocation services offered by stock exchanges enable market participants to achieve execution costs for large orders that are substantially lower and less sensitive to interacting with high-frequency traders. However, these benefits manifest only for orders executed on the colocated brokers' own behalf, whereas customers' order execution costs are substantially higher. Analyses of individual order executions indicate that customer orders originating from colocated brokers are less actively monitored. This suggests that brokers do not make effective use of their technology, possibly due to agency frictions or poor algorithm selection and parameter choice by customers."
 
 - ssrn: "https://doi.org/10.2139/ssrn.3365994"
   title: "Quasi-Dark Trading: The Effects of Banning Dark Pools in a World of Many Alternatives"
@@ -28,12 +28,6 @@
   authors: "with Jasmin Gider and Simon Schmickler"
   year: "2021"
   abstract: "We study how the informativeness of stock prices changes with the start of high-frequency trading (HFT). Our estimate is based on the staggered start of HFT participation in a panel of international exchanges. With HFT presence, market prices are a less reliable predictor of future cash flows and investment, even more so for longer horizons. Further, firm-level idiosyncratic volatility decreases, and the holdings and trades by institutional investors deviate less from the market-capitalization weighted portfolio as a benchmark. Our results document that the informativeness of prices decreases subsequent to the start of HFT. These findings are consistent with theoretical models of HFTs' ability to anticipate informed order flow, resulting in decreased incentives to acquire fundamental information."
-
-- ssrn: "https://dx.doi.org/10.2139/ssrn.4202201"
-  title: One for the Money, Two for the Show? The Number of Designated Market Makers and Liquidity
-  authors: "with Erik Theissen"
-  year: "2022"
-  abstract: "Prior research has established that the presence of designated market makers (DMMs) in an electronic open limit order book increases liquidity. We analyze whether the presence of additional DMMs results in a further improvement in liquidity. Using data from Deutsche Börse's Xetra system we find that increases in the number of DMMs significantly improve liquidity, and vice versa for decreases in the number of DMMs. Our results are confirmed when we use an instrumental variables approach to overcome potential endogeneity issues."
 
 - ssrn:
   title: "Corporate Bond Issuance Fragmentation, Liquidity, and Issuance Costs"

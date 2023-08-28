@@ -6,17 +6,32 @@
 #   abstract:
 
 - doi:
+  ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3961574"
+  title: "Non-Standard Errors"
+  authors: "with Albert Menkveld et al."
+  journal: "Journal of Finance (forthcoming)"
+  abstract: "In statistics, samples are drawn from a population in a data-generating process (DGP). Standard errors measure the uncertainty in sample estimates of population parameters. In science, evidence is generated to test hypotheses in an evidence-generating process (EGP). We claim that EGP variation across researchers adds uncertainty: non-standard errors. To study them, we let 164 teams test six hypotheses on the same sample. We find that non-standard errors are sizeable, on par with standard errors. Their size (i) co-varies only weakly with team merits, reproducibility, or peer rating, (ii) declines significantly after peer-feedback, and (iii) is underestimated by participants."
+
+
+- doi: "https://doi.org/10.1016/j.econlet.2023.110992"
+  ssrn: 
+  title: "One for the Money, Two for the Show? The Number of Designated Market Makers and Liquidity"
+  authors: "with Erik Theissen"
+  journal: "Economics Letters 224 (2023)"
+  abstract: "Prior research has established that the presence of designated market makers (DMMs) in an electronic open limit order book increases liquidity. We analyze whether the presence of additional DMMs results in a further improvement in liquidity. Using data from Deutsche Börse's Xetra system we find that increases in the number of DMMs significantly improve liquidity, and vice versa for decreases in the number of DMMs. Our results are confirmed when we use an instrumental variables approach to overcome potential endogeneity issues."
+
+- doi: "https://doi.org/10.1017/S0022109022001521"
   ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3276548"
   title: "Trader Competition in Fragmented Markets: Liquidity Supply versus Picking-off Risk"
   authors: "with Alejandro Bernales, Nicolas Garrido, Satchit Sagade, and Marcela Valenzuela"
   journal: "Journal of Financial and Quantitative Analysis, forthcoming"
   abstract: "By employing a dynamic model with two limit order books, we show that fragmentation is associated with reduced competition among liquidity suppliers and lower picking-off risk of limit orders. Due to these countervailing channels, the impact of fragmentation on liquidity and welfare differs with asset volatility: when volatility is high (low), liquidity and aggregate welfare in a fragmented market are higher (lower) than in a single market. However, fragmentation always shifts welfare away from agents with exogenous trading motives and towards intermediaries. We empirically corroborate our model’s predictions about liquidity. Our model reconciles the mixed results in the empirical literature."
 
-- doi:
+- doi: "https://doi.org/10.1016/j.finmar.2023.100816"
   ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2839285"
   title: "Spoilt for Choice: Determinants of Market Shares in Fragmented Equity Markets"
   authors: "with Peter Gomber, Satchit Sagade, Erik Theissen, and Moritz Weber"
-  journal: "Journal of Financial Markets, forthcoming"
+  journal: "Journal of Financial Markets 64 (2023)"
   abstract: "We analyze the determinants of trading volumes of different trading mechanisms in equity markets using an extensive panel data set from European markets comprising public limit order books, call auctions, dark pools, internalization platforms, and the over-the-counter market. Market shares, resulting from investors' order routing decisions, are driven by the degree of immediacy and anonymity offered by the venues, their ability to offer off-tick executions, as well as the informational environment and conditions in the market. Findings for small and large trades are distinctly different, likely because traders jointly choose trade size and venue type."
 
 - doi: "https://doi.org/10.1016/j.finmar.2019.100530"
