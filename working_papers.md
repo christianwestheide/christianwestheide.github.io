@@ -17,7 +17,7 @@ title: Working Papers
 				</details>
 			{% endif %}
 			{% if item.ssrn %}
-					<a href ="{{item.ssrn}}" target ="_blank"><div class = "color-button2">SSRN</div></a>
+					<a href ="{{item.ssrn}}" target ="_blank"><div class = "color-button2">Paper</div></a>
 			{% else %}
 			  &nbsp;
 			{% endif %}

@@ -1,27 +1,21 @@
 
-- ssrn:
-  title: "The Effects of Europe's 2020 Short Selling Bans on Securities Markets"
-  authors: "with Bogdan Stankovski"
-  year: "2023"
-  abstract:
-
-- ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4289346"
+- ssrn: "https://dx.doi.org/10.2139/ssrn.4289346"
   title: "Broker colocation and the execution costs of customer and proprietary orders"
   authors: "with Satchit Sagade and Stefan Scharnowski"
-  year: "2023"
+  year: "2024"
   abstract: "Colocation services offered by stock exchanges enable market participants to achieve execution costs for large orders that are substantially lower and less sensitive to interacting with high-frequency traders. However, these benefits manifest only for orders executed on the colocated brokers' own behalf, whereas customers' order execution costs are substantially higher. Analyses of individual order executions indicate that customer orders originating from colocated brokers are less actively monitored. This suggests that brokers do not make effective use of their technology, possibly due to agency frictions or poor algorithm selection and parameter choice by customers."
+
+- ssrn: "https://doi.org/10.2139/ssrn.3475442"
+  title: "A Tale of Two Cities – Inter-Market Latency and Fast-Trader Competition"
+  authors: "with Satchit Sagade, Stefan Scharnowski, and Erik Theissen"
+  year: "2024"
+  abstract: "We examine the impact of increasing competition among the fastest traders by analyzing a new low-latency microwave network connecting exchanges trading the same stocks. Using a difference-in-differences approach comparing German stocks with similar French stocks, we find improved market integration, faster incorporation of stock-specific information, and an increased contribution to price discovery by the smaller exchange. Liquidity worsens for large caps due to increased sniping but improves for mid caps due to fast liquidity provision. Trading volume on the smaller exchange declines across all stocks. We thus uncover nuanced effects of fast trader participation that depend on their prior involvement."
 
 - ssrn: "https://doi.org/10.2139/ssrn.3365994"
   title: "Quasi-Dark Trading: The Effects of Banning Dark Pools in a World of Many Alternatives"
   authors: "with Thomas Johann, Talis Putnins, and Satchit Sagade"
   year: "2019"
   abstract: "We show that “quasi-dark” trading venues, i.e., markets with somewhat non-transparent trading mechanisms, are important parts of modern equity market structure alongside lit markets and dark pools. Using the European MiFID II regulation as a quasi-natural experiment, we find that dark pool bans lead to (i) volume spill-overs into quasi-dark trading mechanisms including periodic auctions and order internalization systems; (ii) little volume returning to transparent public markets; and consequently, (iii) a negligible impact on market liquidity and short-term price efficiency. These results show that quasi-dark markets serve as close substitutes for dark pools and consequently mitigate the effectiveness of dark pool regulation. Our findings highlight the need for a broader approach to transparency regulation in modern markets that takes into consideration the many alternative forms of quasi-dark trading."
-
-- ssrn: "https://doi.org/10.2139/ssrn.3475442"
-  title: "A Tale of Two Cities - Inter-Market Latency, Market Integration, and Market Quality"
-  authors: "with Satchit Sagade, Stefan Scharnowski, and Erik Theissen"
-  year: "2019"
-  abstract: "We study the introduction of a microwave link between Frankfurt and London and identify its effects on German stocks that trade in both locations using a difference-in-differences setting with French firms that trade only in London as the control group.  We find that the link improves the integration between the two markets as evidenced by a reduction in arbitrage opportunities and a faster reaction in London after a trade in Frankfurt. Trading volume shifts towards Frankfurt as investors - concerned about an increase in speed dispersion vis-à-vis high-frequency traders - reduce order splitting across the two cities. The effects on market quality outcomes across stocks differ as high-frequency traders strategically utilize the speed advantage resulting from the microwave link to supply or consume liquidity. In London, mid cap stocks benefit from increased liquidity provision whereas order flow for large stocks becomes more toxic. London's increased competitiveness for mid cap stocks also translates into an increase in its information share, while Frankfurt increases its information share for large cap stocks. These results suggest that market integration differently affects investors based on their speed advantage, trading venues based on their level of competitiveness, and stocks based on their size."
 
 - ssrn: "https://doi.org/10.2139/ssrn.3349653"
   title: "High-Frequency Trading and Price Informativeness"
@@ -35,6 +29,18 @@
   year: "2022"
   abstract: "Many companies issue multiple bonds that are outstanding simultaneously. Market participants surmise that this fragmentation of issuance is one reason for the relative lack of liquidity in the corporate bond market. Using data from the US, we confirm that bond issuance fragmentation predicts lower bond liquidity, as measured by estimates of the bid-ask spread and the intra-quartile range of trade prices. These results hold for both retail and institutional-sized trades. The effect was most severe during the Global Financial Crisis, and it has generally reduced over time. Our results are most consistent with predictions from models of search and bargaining costs, though they do not rule out a role of dealer inventory costs. Bond issuers do not benefit from more concentrated issuance because they are associated with higher yields despite their higher liquidity."
 
+- ssrn: "https://dx.doi.org/10.2139/ssrn.4790780"
+  title: "Mass Reproducibility and Replicability: A New Hope"
+  authors: "with Abel Brodeur, Derek Mikola, Nikolai Cook et al."
+  year: "2024"
+  abstract: "This study pushes our understanding of research reliability by reproducing and replicating claims from 110 papers in leading economic and political science journals. The analysis involves computational reproducibility checks and robustness assessments. It reveals several patterns. First, we uncover a high rate of fully computationally reproducible results (over 85%). Second, excluding minor issues like missing packages or broken pathways, we uncover coding errors for about 25% of studies, with some studies containing multiple errors. Third, we test the robustness of the results to 5,511 re-analyses. We find a robustness reproducibility of about 70%. Robustness reproducibility rates are relatively higher for re-analyses that introduce new data and lower for re-analyses that change the sample or the definition of the dependent variable. Fourth, 52% of re-analysis effect size estimates are smaller than the original published estimates and the average statistical significance of a re-analysis is 77% of the original. Lastly, we rely on six teams of researchers working independently to answer eight additional research questions on the determinants of robustness reproducibility. Most teams find a negative relationship between replicators' experience and reproducibility, while finding no relationship between reproducibility and the provision of intermediate or even raw data combined with the necessary cleaning codes."
+
+  - ssrn: "https://ideas.repec.org/p/zbw/i4rdps/66.html"
+    title: "The Dynamics and Spillovers of Management Interventions: A Comment on Bianchi and Giorcelli (2022)"
+    authors: "with Gon¸calo Lima, Jakob Moeller, and Marco Schmandt"
+    year: "2023"
+    abstract:
+
 - ssrn:
   title: "The Anatomy of Designated Market Maker Trading in Limit Order Markets"
   authors: "with Erik Theissen"
@@ -47,8 +53,8 @@
   year: "2016"
   abstract:
 
-- ssrn:
-  title: "Institutional Ownership, Corporate Governance, and Price Reactions to Corporate Insider Trading"
-  authors: "with Peter Bednarek"
-  year: "2013"
-  abstract:
+# - ssrn:
+#   title: "Institutional Ownership, Corporate Governance, and Price Reactions to Corporate Insider Trading"
+#   authors: "with Peter Bednarek"
+#   year: "2013"
+#   abstract:
