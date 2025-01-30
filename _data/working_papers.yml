@@ -11,7 +11,7 @@
   year: "2024"
   abstract: "We examine the impact of increasing competition among the fastest traders by analyzing a new low-latency microwave network connecting exchanges trading the same stocks. Using a difference-in-differences approach comparing German stocks with similar French stocks, we find improved market integration, faster incorporation of stock-specific information, and an increased contribution to price discovery by the smaller exchange. Liquidity worsens for large caps due to increased sniping but improves for mid caps due to fast liquidity provision. Trading volume on the smaller exchange declines across all stocks. We thus uncover nuanced effects of fast trader participation that depend on their prior involvement."
 
-  - ssrn: "https://econpapers.repec.org/RePEc:zbw:i4rdps:195"
+- ssrn: "https://econpapers.repec.org/RePEc:zbw:i4rdps:195"
   title: "Comparing Human-Only, AI-Assisted, and AI-Led Teams on Assessing Research Reproducibility in Quantitative Social Science"
   authors: "with Abel Brodeur et al."
   year: "2025"
