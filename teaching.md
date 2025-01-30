@@ -24,7 +24,7 @@ permalink: /teaching/
 {% endif %}  
 {% endfor %}
 </ul>
-<h2>Past teaching</h2>
+<h2>Past teaching)</h2>
 
 <ul class="listing">
 {% for item in site.data.teaching %}
